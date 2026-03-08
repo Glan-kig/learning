@@ -11,7 +11,7 @@ async function afficherData() {
             const carte = document.createElement('div');
             carte.className = 'user-card';
             carte.innerHTML = `
-            <div class="bg-white shadow-md rounded-lg p-6 mb-4">
+            <div class="bg-white shadow-md rounded-lg p-6 mb-4 items-center justify-center text-center">
                 <h2 class="text-xl font-bold text-gray-800">${item.name}</h2>
                 <p class="text-black font-bold text-xl">Email: ${item.email}</p>
                 <p class="text-black font-bold text-xl">Age: ${item.age}</p>
